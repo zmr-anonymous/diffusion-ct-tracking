@@ -107,12 +107,12 @@ Expected structure:
 
 ## Step 3. Download checkpoints and demo data
 
-```bash
-BASE_URL=https://github.com/zmr-anonymous/diffusion-ct-tracking/releases/download/v1.0
+### Download checkpoints and demo data
 
-wget ${BASE_URL}/stage1_coarse.pth
-wget ${BASE_URL}/stage2_refine.pth
-wget ${BASE_URL}/demo_data.zip
+Run the helper script:
+
+```bash
+bash scripts/download_demo.sh
 ```
 
 Move checkpoints:
