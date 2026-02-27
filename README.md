@@ -108,9 +108,11 @@ Expected structure:
 ## Step 3. Download checkpoints and demo data
 
 ```bash
-wget https://github.com/zmr-anonymous/diffusion-ct-tracking/releases/download/v1.0/stage1_coarse.pth
-wget https://github.com/zmr-anonymous/diffusion-ct-tracking/releases/download/v1.0/stage2_refine.pth
-wget https://github.com/zmr-anonymous/diffusion-ct-tracking/releases/download/v1.0/demo_data.zip
+BASE_URL=https://github.com/zmr-anonymous/diffusion-ct-tracking/releases/download/v1.0
+
+wget ${BASE_URL}/stage1_coarse.pth
+wget ${BASE_URL}/stage2_refine.pth
+wget ${BASE_URL}/demo_data.zip
 ```
 
 Move checkpoints:
